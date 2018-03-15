@@ -1,0 +1,10 @@
+.curso-active {
+  text-decoration: none;
+  color: rgb(53, 15, 221);
+  font-weight: 700;
+}
+
+.curso-inactive {
+  text-decoration: line-through;
+  color: red;
+}

@@ -6,8 +6,9 @@ const dataObject = {
   titulo: "Esto es mi spa de React",
   url: "react.png",
   parrafo: "Libreria de js que me permita trabajar las vistas de mi spa.",
-  contenido: "Si quiero llegar a realizar el single page applications potentes debo conocer:",
-  items: ['Redux', 'Redux-Router', 'Js', 'DOM']
+  contenido: "Si quiero llegar a realizar single page applications potentes debo conocer:",
+  items: ['Redux', 'Redux-Router', 'Js', 'DOM'],
+  active: true
 }
 
 const App = () => {
@@ -18,8 +19,9 @@ const App = () => {
     paragraph={dataObject.parrafo}
     />
     <Section 
-    contenido={dataObject.contenido}
     arrayCursos={dataObject.items}
+    contenido={dataObject.contenido}
+    isActive={dataObject.active}
     />
   </div>
 }
